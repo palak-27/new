@@ -1,0 +1,37 @@
+in centos 
+su - root 
+docker run -it -d centos
+
+docker images
+docker run (image id)
+docker attach containerid
+
+iptables -F
+service firewalld stop
+
+ps -a | grep :\hello    hello.c .\hello
+kill -9 pid
+
+for jdk installation
+apt-get install openjdk-8-jre
+
+
+dpkg--list | grep jdk
+
+rm -f /var/lib/dpkg/lock-frontend
+otherwise use only rm
+
+
+in docker swarm 
+useradd manager
+passwd manager
+after setting password root 
+
+docker swarm leave --force
+
+apt-get install -y docker.io  to install docker
+
+touch file1 create file
+ls
+touch file1 file2
+rm -rf*
